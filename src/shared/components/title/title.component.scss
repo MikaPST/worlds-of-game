@@ -1,0 +1,17 @@
+app-title {
+    @font-face {
+        font-family: LifeCraft;
+        src: url("../assets/font/LifeCraft.ttf") format("ttf");
+    }
+
+    @extend .display-3, .d-block, .m-4;
+
+    h1 {
+        font-family: LifeCraft;
+        text-align: center;
+           color:#ff9000;
+           font-size: 0.8em;
+       }
+
+    
+}
