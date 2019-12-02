@@ -1833,34 +1833,30 @@ fieldset:disabled a.btn {
     .show > .btn-secondary.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5); }
 
-.btn-success, app-register-form form app-button, app-register-form form app-loading {
+.btn-success {
   color: #fff;
   background-color: #28a745;
   border-color: #28a745; }
-  .btn-success:hover, app-register-form form app-button:hover, app-register-form form app-loading:hover {
+  .btn-success:hover {
     color: #fff;
     background-color: #218838;
     border-color: #1e7e34; }
-  .btn-success:focus, app-register-form form app-button:focus, app-register-form form app-loading:focus, .btn-success.focus, app-register-form form app-button.focus, app-register-form form app-loading.focus {
+  .btn-success:focus, .btn-success.focus {
     color: #fff;
     background-color: #218838;
     border-color: #1e7e34;
     box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5); }
-  .btn-success.disabled, app-register-form form app-button.disabled, app-register-form form app-loading.disabled, .btn-success:disabled, app-register-form form app-button:disabled, app-register-form form app-loading:disabled {
+  .btn-success.disabled, .btn-success:disabled {
     color: #fff;
     background-color: #28a745;
     border-color: #28a745; }
-  .btn-success:not(:disabled):not(.disabled):active, app-register-form form app-button:not(:disabled):not(.disabled):active, app-register-form form app-loading:not(:disabled):not(.disabled):active, .btn-success:not(:disabled):not(.disabled).active, app-register-form form app-button:not(:disabled):not(.disabled).active, app-register-form form app-loading:not(:disabled):not(.disabled).active,
-  .show > .btn-success.dropdown-toggle,
-  app-register-form form .show > app-button.dropdown-toggle,
-  app-register-form form .show > app-loading.dropdown-toggle {
+  .btn-success:not(:disabled):not(.disabled):active, .btn-success:not(:disabled):not(.disabled).active,
+  .show > .btn-success.dropdown-toggle {
     color: #fff;
     background-color: #1e7e34;
     border-color: #1c7430; }
-    .btn-success:not(:disabled):not(.disabled):active:focus, app-register-form form app-button:not(:disabled):not(.disabled):active:focus, app-register-form form app-loading:not(:disabled):not(.disabled):active:focus, .btn-success:not(:disabled):not(.disabled).active:focus, app-register-form form app-button:not(:disabled):not(.disabled).active:focus, app-register-form form app-loading:not(:disabled):not(.disabled).active:focus,
-    .show > .btn-success.dropdown-toggle:focus,
-    app-register-form form .show > app-button.dropdown-toggle:focus,
-    app-register-form form .show > app-loading.dropdown-toggle:focus {
+    .btn-success:not(:disabled):not(.disabled):active:focus, .btn-success:not(:disabled):not(.disabled).active:focus,
+    .show > .btn-success.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5); }
 
 .btn-info {

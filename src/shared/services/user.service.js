@@ -11,7 +11,7 @@ export class UserService {
     static login() {
         return new Promise((resolve, reject) => {
             const xhr = new XMLHttpRequest;
-            xhr.open("GET", `http://worldsofgame.alwaysdata.net/user.php?email=${
+            xhr.open("GET", `http://localhost:8000/login?email=${
                 user.email
                 }&password=${
                 user.password
@@ -30,7 +30,7 @@ export class UserService {
         return new Promise((resolve, reject) => {
             const xhr = new XMLHttpRequest;
             // xhr.open("POST", "http://worldsofgame.alwaysdata.net/user.php");
-            xhr.open("POST", "http://localhost:8000");
+            xhr.open("POST", "http://localhost:8000/users");
             xhr.setRequestHeader("Content-Type", "application/json");
             xhr.onload = xhr.onerror = () => {
                 if (201 === xhr.status) {
