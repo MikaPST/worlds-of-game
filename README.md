@@ -1,4 +1,6 @@
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/817c692ad64e4c539160a1b37bfc8aa5)](https://www.codacy.com/manual/MikaPST/worlds-of-game?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MikaPST/worlds-of-game&amp;utm_campaign=Badge_Grade)
+
 ### Requirement : nodeJS has to be installed 
 [@see Node.js](https://nodejs.org/en/) *follow recommended installation*
 ### Requirement :  Java_JDK 8 has to be installed
